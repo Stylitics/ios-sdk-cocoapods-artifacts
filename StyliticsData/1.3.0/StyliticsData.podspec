@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
                    Permission is granted to...
                   LICENSE
                 }
-    s.author             = { "Hrithik Kesharwani" => "hrithikk@cybage.com" } 
-    s.source       = { :git => "https://github.com/Stylitics/ios-sdk-frameworks-artifacts.git", :tag => "#{s.version}" }
+    s.author             = { "$(git config user.name)" => "$(git config
+user.email)" } 
+    s.source       = { :git => "https://github.com/hrithikke/RepoForFramework.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "StyliticsData.xcframework"
     s.platform = :ios
     s.swift_version = "5"
